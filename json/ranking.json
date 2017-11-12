@@ -1,0 +1,23 @@
+{
+    "colorlist": [
+        {
+            "linkcnname": "测试电视剧1",
+            "colorposname": "测试节目测试电视剧~~~",
+            "picurl": "http://211.100.75.219/hisense/hisntvtestsrv/img/cat.jpg",
+            "linkcategoryid": 2,
+            "linkmainid": 2355,
+            "linksubid": 22,
+            "linkplayid": 0
+        },
+        {
+            "linkcnname": "测试电视剧2",
+            "colorposname": "测试节目测试电视剧~~~~",
+            "picurl": "http://211.100.75.219/hisense/hisntvtestsrv/img/cat.jpg",
+            "linkcategoryid": 2,
+            "linkmainid": 2335,
+            "linksubid": 8,
+            "linkplayid": 0
+        }
+    ],
+
+}
