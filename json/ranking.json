@@ -1,23 +1,46 @@
-{
-    "colorlist": [
-        {
-            "linkcnname": "测试电视剧1",
-            "colorposname": "测试节目测试电视剧~~~",
-            "picurl": "http://211.100.75.219/hisense/hisntvtestsrv/img/cat.jpg",
-            "linkcategoryid": 2,
-            "linkmainid": 2355,
-            "linksubid": 22,
-            "linkplayid": 0
-        },
-        {
-            "linkcnname": "测试电视剧2",
-            "colorposname": "测试节目测试电视剧~~~~",
-            "picurl": "http://211.100.75.219/hisense/hisntvtestsrv/img/cat.jpg",
-            "linkcategoryid": 2,
-            "linkmainid": 2335,
-            "linksubid": 8,
-            "linkplayid": 0
-        }
-    ],
-
-}
+[
+    {
+        "id":92,
+        "battleManageId":null,
+        "memberNo":"ZFW002",
+        "title":"百度钱包",
+        "logoUrl":null,
+        "ticketCount":7,
+        "ticketPositive":null,
+        "ticketNegative":null,
+        "memberName":"百度钱包",
+        "memberPhone":null,
+        "memberAddress":null,
+        "memberEmail":null,
+        "state":null,
+        "createDate":null,
+        "remark1":null,
+        "remark2":null,
+        "remark3":null,
+        "content":null,
+        "name":null,
+        "showLogo":null
+    },
+    {
+        "id":91,
+        "battleManageId":null,
+        "memberNo":"ZFW001",
+        "title":"阿里巴巴",
+        "logoUrl":null,
+        "ticketCount":6,
+        "ticketPositive":null,
+        "ticketNegative":null,
+        "memberName":"阿里巴巴",
+        "memberPhone":null,
+        "memberAddress":null,
+        "memberEmail":null,
+        "state":null,
+        "createDate":null,
+        "remark1":null,
+        "remark2":null,
+        "remark3":null,
+        "content":null,
+        "name":null,
+        "showLogo":null
+    }
+]

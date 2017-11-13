@@ -28,6 +28,7 @@ var mActivity;
 var mContestants;
 var mDetails;
 var mRanking;
+var mVote;
 
 var mUsers;
 
@@ -36,21 +37,26 @@ function init() {
     mContestants = fs.readFileSync('./json/contestants.json', 'utf8');
     mDetails = fs.readFileSync('./json/details.json', 'utf8');
     mRanking = fs.readFileSync('./json/ranking.json', 'utf8');
+    mVote = fs.readFileSync('./json/vote.json', 'utf8');
 }
 
 app.post('/activity', function(req, res) {
     console.log("请求了activity")
+    // console.log(req)
     res.writeHead(200, JSON_HEADER);
     res.end(mActivity);
 });
 
 app.post('/query/json', function(req, res) {
-    console.log("query")
+    console.log("请求了query")
+    // console.log(req)
     res.writeHead(200, JSON_HEADER);
     res.end(mContestants);
 });
 
-app.post('detail/{id}', function(req, res) {
+app.post('/detail', function(req, res) {
+    console.log("请求了detail")
+    console.log(req.body)
     res.writeHead(200, JSON_HEADER);
     res.end(mDetails);
 });
@@ -62,7 +68,7 @@ app.post('/topVote', function(req, res) {
 
 app.post('/giveVote', function(req, res) {
     res.writeHead(200, JSON_HEADER);
-    res.end();
+    res.end(mVote);
 });
 
 
