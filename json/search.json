@@ -1,0 +1,24 @@
+[
+    {
+        "id":92,
+        "battleManageId":109,
+        "memberNo":"ZFW002",
+        "title":"百度钱包",
+        "logoUrl":"http://211.100.75.219/hisense/hisntvtestsrv/img/cat.jpg",
+        "ticketCount":7,
+        "ticketPositive":null,
+        "ticketNegative":null,
+        "memberName":"百度钱包",
+        "memberPhone":"5875-987",
+        "memberAddress":"百度大厦",
+        "memberEmail":"du@baidu.mail",
+        "state":1,
+        "createDate":1509678710000,
+        "remark1":"2",
+        "remark2":"https://www.baifubao.com",
+        "remark3":"bOBOB",
+        "content":"百度钱包将百度旗下的产品及海量商户与广大用户直接“连接”，提供超级转账、付款、缴费、充值等支付服务，并全面打通O2O生活消费领域，同时提供“百度金融中心”业务，包括提供行业领先的个人理财、消费金融等多样化创新金融服务，让用户在移动时代轻松享受一站式的支付生活。",
+        "name":null,
+        "showLogo":"http://111.200.54.178:82/vote/upload/images/indexPic//static/img/baiduqianbao.jpg"
+    }
+]

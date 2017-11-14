@@ -38,6 +38,7 @@ function init() {
     mDetails = fs.readFileSync('./json/details.json', 'utf8');
     mRanking = fs.readFileSync('./json/ranking.json', 'utf8');
     mVote = fs.readFileSync('./json/vote.json', 'utf8');
+    mSearch = fs.readFileSync('./json/search.json', 'utf8');
 }
 
 app.post('/activity', function(req, res) {
@@ -49,9 +50,15 @@ app.post('/activity', function(req, res) {
 
 app.post('/query/json', function(req, res) {
     console.log("请求了query")
-    // console.log(req)
-    res.writeHead(200, JSON_HEADER);
-    res.end(mContestants);
+    console.log(req.body.id)
+    if(!req.body.id){
+        res.writeHead(200, JSON_HEADER);
+        res.end(mContestants);
+    }else{
+        res.writeHead(200, JSON_HEADER);
+        res.end(mSearch);
+    }
+
 });
 
 app.post('/detail', function(req, res) {
